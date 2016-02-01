@@ -18,6 +18,7 @@ shinyUI(
     p('User have to to is to input some basic information such as number of people the unit can accommodate, 
       number of bathrooms, number of bedrooms, and number of beds that is available.  And then a suggestion will
       be provided based on the Seattle AirBnb listing data.'),
+    p('Usage: Adjust any of the option on the left hand side to fit the features of your unit and then hit submit'),
     h3('Results of Suggestion'),
     h4('You entered'),
     verbatimTextOutput("inputValue"),
